@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+body{
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+   height:99vh;
+   background-color: hsl(226, 43%, 10%);
+}
+.container{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-column-gap: 1.25rem;
+    width:55rem;
+    height: 25rem;
+    }
+.person{
+    display:grid;
+    grid-template-rows: 70% 30%;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 20px;
+    grid-row-gap:1.25rem;
+}
+.person .guy .wrap1 img{
+    height:3.5rem;
+    width: auto;
+    border-radius: 55px;
+    border: 2px solid whitesmoke;
+    margin-bottom: 2rem;
+}
+.person .guy{
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 20px;
+}
+.wrap1{
+    margin:1rem 1.25rem;
+}
+.wrap1 .name{
+    color: whitesmoke;
+    font-size: 2rem;
+    font-weight: 300;
+}
+.time{
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 20px;
+    color:hsl(235, 45%, 61%)
+}
+.time .wrap2 span:hover{
+    color:whitesmoke ;
+    cursor: pointer;
+}
+.wrap2{
+    margin:1rem 1.25rem;
+}
+.wrap2 span{
+    line-height: 1.75rem;
+}
+/*End of person side styling*/
+.activities{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-row-gap: 1.25rem;
+    grid-column-gap:1.25rem;
+}
+.play{
+    background-image: url("./images/icon-play.svg");
+    background-repeat: no-repeat;
+    background-color: hsl(195, 74%, 62%);
+    border-radius: 20px;
+    background-size:4rem ;
+    background-position-x:90%;
+    background-position-y: -3%;
+    position: relative;
+}
+ .wrap3{
+    background-color:hsl(235, 46%, 20%);
+    width: 100%;
+    height: 80%;
+    border-radius: 20px;
+    bottom:0%;
+    position: absolute;
+}
+ .header{
+    display:flex;
+    align-items: baseline;
+    justify-content:space-between;
+    color: whitesmoke;
+    font-size: 1rem;
+    margin:1rem 1.25rem;
+}
+.dot{
+    width: 1.167rem;
+    height: 0.33rem;
+}
+ .card-content{
+    margin: 1rem 1.25rem;
+}
+ .card-content .prime{
+   color: whitesmoke;
+   font-size: 2.5rem;
+   font-weight: 300;
+}
+ .subp{
+    color:hsl(235, 45%, 61%);
+    font-size: 0.9rem;
+    
+}
+.study{
+    background-image: url("./images/icon-study.svg");
+    background-repeat: no-repeat;
+    background-color: hsl(348, 100%, 68%);
+    border-radius: 20px;
+    background-size:4rem ;
+    background-position-x:90%;
+    background-position-y: -3%;
+    position: relative;
+}
+
+.excer{
+    background-image: url("./images/icon-exercise.svg");
+    background-repeat: no-repeat;
+    background-color: hsl(145, 58%, 55%);
+    border-radius: 20px;
+    background-size:4rem ;
+    background-position-x:90%;
+    background-position-y: -3%;
+    position: relative;
+}
+.social{
+    background-image: url("./images/icon-social.svg");
+    background-repeat: no-repeat;
+    background-color: hsl(264, 64%, 52%);
+    border-radius: 20px;
+    background-size:4rem ;
+    background-position-x:90%;
+    background-position-y: -3%;
+    position: relative;
+}
+.sc{
+    background-image: url("./images/icon-self-care.svg");
+    background-repeat: no-repeat;
+    background-color: hsl(43, 84%, 65%);
+    border-radius: 20px;
+    background-size:4rem ;
+    background-position-x:90%;
+    background-position-y: -3%;
+    position: relative; 
+}
+.work{
+    background-image: url("./images/icon-work.svg");
+    background-repeat: no-repeat;
+    background-color: hsl(15, 100%, 70%);
+    border-radius: 20px;
+    background-size:4rem ;
+    background-position-x:90%;
+    background-position-y: -3%;
+    position: relative; 
+}
